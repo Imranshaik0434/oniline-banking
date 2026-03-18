@@ -1,14 +1,16 @@
 # <html>
 # <body>
-# <h1><%= "Hello World!!!!" %></h1>
+# <h1><%= "Hello World!!" %></h1>
 # </body>
 # </html>
-
 <!DOCTYPE html>
 <html>
 <head>
     <title>Background Color Change</title>
     <style>
+        h1 {
+            text-align: center;
+        }
         #myButton {
             background-color: blue;
             color: white;
@@ -27,7 +29,7 @@
 
 <body>
 
-<h1><%= "Hello World!!!!" %></h1>
+<h1><%= "Jenkins-CI/CD Deployment: Sprint IT Colour Change Website" %></h1>
 
 <button id="myButton">Click Me</button>
 
