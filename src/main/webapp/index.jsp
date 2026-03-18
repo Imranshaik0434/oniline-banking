@@ -4,10 +4,12 @@
 # </body>
 # </html>
 
+<!DOCTYPE html>
 <html>
 <head>
+    <title>Background Color Change</title>
     <style>
-        myButton {
+        #myButton {
             background-color: blue;
             color: white;
             padding: 10px 20px;
@@ -17,21 +19,27 @@
             border-radius: 5px;
         }
 
-        .clicked {
-            background-color: green;
+        body {
+            transition: background-color 0.5s ease;
         }
     </style>
 </head>
-<body>
-    <h1><%= "Hello World!!!!" %></h1>
 
-    <!-- Your button goes here -->
-    <button id="myButton" onclick="changeColor()">Click Me</button>
+<body>
+
+<h1><%= "Hello World!!!!" %></h1>
+
+<button id="myButton">Click Me</button>
+
 <script>
-    function changeColor() {
-        document.getElementById("myButton").classList.toggle("clicked");
-    }
+    var colors = ["white", "lightblue", "lightgreen", "yellow", "orange", "pink"];
+    var index = 0;
+
+    document.getElementById("myButton").addEventListener("click", function () {
+        document.body.style.backgroundColor = colors[index];
+        index = (index + 1) % colors.length;
+    });
 </script>
-</body>
+
 </body>
 </html>
