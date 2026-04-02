@@ -1,7 +1,7 @@
 <%-- <!-- --%>
 <html>
 <body>
-<h1><%= "Hello World!! triggered using POLL SCM Trigger time"%></h1>
+<h1><%= "Hello World!! triggered using POLL Second "%></h1>
 </body>
 </html>
 <%-- --> --%>
