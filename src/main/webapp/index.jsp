@@ -1,7 +1,7 @@
 <%-- <!-- --%>
 <html>
 <body>
-<h1><%= "Hello World!! triggered using POLL Thirt commit "%></h1>
+<h1><%= "Hello World!! Testing POLL SCM Example"%></h1>
 </body>
 </html>
 <%-- --> --%>
