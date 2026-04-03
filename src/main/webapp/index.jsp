@@ -1,7 +1,7 @@
 <%-- <!-- --%>
 <html>
 <body>
-<h1><%= "Hello World!! Testing POLL SCM Example"%></h1>
+<h1><%= "Hello World!! Testing"%></h1>
 </body>
 </html>
 <%-- --> --%>
